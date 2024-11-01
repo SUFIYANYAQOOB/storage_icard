@@ -1,0 +1,65 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    /* background-color: antiquewhite; */
+}
+body{
+    background-image: url(../../../../../../Downloads/pexels-hngstrm-1939485.jpg);
+}
+
+.store{
+    border: 2px solid black;
+    width: 24%;
+    margin-top: 20px;
+    margin-left: 40%;
+    padding-left: 20px;
+    border-radius: 5px;
+    
+    
+}
+.store p {
+    margin-top: 10px;
+}
+input{
+    margin-top: 20px;
+    margin-left: 10px;
+    padding: 10px;
+    width: 80%;
+    border-radius: 5px;
+}
+input:hover{
+border: 1px solid orange;
+}
+input ::placeholder{
+    color: black;
+}
+.input_field{
+    background-color: rgb(5, 77, 139);
+    margin-top: 20px;
+    border: 2px solid black;
+    width: 25%;
+    margin-left: 40%;
+    border-radius: 5px;
+}
+.input_field button{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 87%;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    background-color: rgb(43, 189, 247);
+    color: white;
+}
+.input_field button:hover{
+    background-color: blue;
+color: white;
+}
+#display-image {
+    display: none;
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
